@@ -9,8 +9,12 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="System.Linq.Async" Version="6.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="System.Linq.Async" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\net6.0\zero_to_one.dxf" />
   </ItemGroup>
